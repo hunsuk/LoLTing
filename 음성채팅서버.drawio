@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-24T02:52:28.471Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="ThBmrsUjIARSZm9tBXZt" version="20.3.5" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-24T03:03:17.547Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="015tQSMJP1mpQGAHaNRc" version="20.3.5" type="github">
   <diagram id="25uB_dZO5zvjSVrDzSwW" name="페이지-1">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -52,7 +52,7 @@
           <mxGeometry x="6" y="69.52" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="OVVmrGOtcIEmjX9ZAdPY-21" value="" style="line;strokeWidth=2;html=1;fillColor=#6a00ff;fontColor=#ffffff;strokeColor=#3700CC;" vertex="1" parent="1">
-          <mxGeometry x="304" y="522.81" width="374" height="10" as="geometry" />
+          <mxGeometry x="290" y="522.81" width="388" height="10" as="geometry" />
         </mxCell>
         <mxCell id="OVVmrGOtcIEmjX9ZAdPY-22" value="" style="line;strokeWidth=2;direction=south;html=1;fillColor=#6a00ff;fontColor=#ffffff;strokeColor=#3700CC;" vertex="1" parent="1">
           <mxGeometry x="721" y="553.24" width="10" height="96.76" as="geometry" />
@@ -136,6 +136,36 @@
         </mxCell>
         <mxCell id="OVVmrGOtcIEmjX9ZAdPY-62" value="&lt;br&gt;&lt;span style=&quot;font-size: 15px;&quot;&gt;1. 매칭 서버에서 매칭이 결정되면 JWT 정보를 이용하여 유저를 파악한다. &lt;br&gt;&lt;br&gt;2. 다중 인스턴트로 구성된 Signaling서버 수용파악을 위해 Radius에 저장된 세션수 파악한다.&amp;nbsp;&lt;br&gt;&lt;br&gt;3. WebRTC를 통해 구현하기 위해선 각 유저의 연걸을 위해 Signaling서버로 유저 정보를 보낸다.&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="810" y="365.5" width="346.98" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="OVVmrGOtcIEmjX9ZAdPY-63" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.mysql_db_instance_2;fillColor=#21C0A5;strokeColor=#006658;fontColor=#5C5C5C;" vertex="1" parent="1">
+          <mxGeometry x="407" y="13.049999999999997" width="40" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="OVVmrGOtcIEmjX9ZAdPY-64" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.s3;fillColor=#21C0A5;strokeColor=#006658;fontColor=#5C5C5C;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="364" y="10" width="40" height="49.11" as="geometry" />
+        </mxCell>
+        <mxCell id="OVVmrGOtcIEmjX9ZAdPY-67" value="" style="line;strokeWidth=2;direction=south;html=1;fillColor=#6a00ff;fontColor=#ffffff;strokeColor=#3700CC;" vertex="1" parent="1">
+          <mxGeometry x="245" y="80" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="OVVmrGOtcIEmjX9ZAdPY-68" value="" style="line;strokeWidth=2;html=1;strokeColor=#3700CC;fontColor=#ffffff;fillColor=#6a00ff;" vertex="1" parent="1">
+          <mxGeometry x="250" y="77" width="60" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="OVVmrGOtcIEmjX9ZAdPY-66" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;fillColor=#21C0A5;strokeColor=#006658;fontColor=#5C5C5C;" vertex="1" parent="1">
+          <mxGeometry x="304" y="52.98000000000002" width="70" height="66.33" as="geometry" />
+        </mxCell>
+        <mxCell id="OVVmrGOtcIEmjX9ZAdPY-69" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.mysql_db_instance_2;fillColor=#21C0A5;strokeColor=#006658;fontColor=#5C5C5C;" vertex="1" parent="1">
+          <mxGeometry x="406" y="383.05" width="40" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="OVVmrGOtcIEmjX9ZAdPY-70" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.s3;fillColor=#21C0A5;strokeColor=#006658;fontColor=#5C5C5C;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="363" y="380" width="40" height="49.11" as="geometry" />
+        </mxCell>
+        <mxCell id="OVVmrGOtcIEmjX9ZAdPY-71" value="" style="line;strokeWidth=2;direction=south;html=1;fillColor=#6a00ff;fontColor=#ffffff;strokeColor=#3700CC;" vertex="1" parent="1">
+          <mxGeometry x="244" y="450" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="OVVmrGOtcIEmjX9ZAdPY-72" value="" style="line;strokeWidth=2;html=1;strokeColor=#3700CC;fontColor=#ffffff;fillColor=#6a00ff;" vertex="1" parent="1">
+          <mxGeometry x="249" y="447" width="60" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="OVVmrGOtcIEmjX9ZAdPY-73" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;fillColor=#21C0A5;strokeColor=#006658;fontColor=#5C5C5C;" vertex="1" parent="1">
+          <mxGeometry x="303" y="422.98" width="70" height="66.33" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
