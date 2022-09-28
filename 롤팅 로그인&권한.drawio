@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-09-24T02:56:57.245Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="-HLU6QvFGRFjdpP5xn2-" version="20.3.5" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-28T00:35:41.029Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="jxterdSgRHPbLfb4PO7I" version="20.3.7" type="github">
   <diagram id="XvT4g7Vny72mVqWPQXKz" name="페이지-1">
-    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="932" dy="592" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -81,7 +81,7 @@
         <mxCell id="lZvOYTNsYxkt9xm4c5QZ-18" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;fillColor=#21C0A5;strokeColor=#006658;fontColor=#5C5C5C;" parent="1" vertex="1">
           <mxGeometry x="924" y="252.98000000000002" width="70" height="66.33" as="geometry" />
         </mxCell>
-        <mxCell id="lZvOYTNsYxkt9xm4c5QZ-41" value="&lt;h1&gt;로그인/권한/성향파악&lt;/h1&gt;&lt;div style=&quot;font-size: 15px;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 15px;&quot;&gt;1. 로그인/회원가입은 할 때 spring Securety사용하고 JWT를 이용하여 유효한 유저의 요청인지 서버가 파악하여 서비스 보안을 향상하고 유저의 개인정보 데이터를 RDS에 저장한다. 이후 radius에 Refresh Token 저장하여 JWT의 Stateless의 약점을 보완한다. &lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 15px;&quot;&gt;2. 로그인 이후 유저에게 앱 카메라를 통해 얼굴 사진을 요구 후 Flask서버에 있는 얼굴 인식, 얼굴 특징점 추출, 서버 메모리에 있는 성향 대표 특징점 과 추출 특징점을 비교하여 유저의 플레이 성향을 얼굴로 파악하여 %단위(예: 공격:30%,수비:20%,균형:50%) 정규화한 값을 RDS에 저장한다&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+        <mxCell id="lZvOYTNsYxkt9xm4c5QZ-41" value="&lt;h1&gt;로그인/권한/성향파악&lt;/h1&gt;&lt;div style=&quot;font-size: 15px;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 15px;&quot;&gt;1. 로그인/회원가입은 할 때 Spring Securety사용하고 JWT를 이용하여 유효한 유저의 요청인지 서버가 파악하여 서비스 보안을 향상하고 유저의 개인정보 데이터를 RDS에 저장한다. 이후 radius에 Refresh Token 저장하여 JWT의 Stateless의 약점을 보완한다. &lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 15px;&quot;&gt;2. 로그인 유저가 올리는 사진을 받아 얼굴 인식을 하는 openCV를 이용하여 얼굴사진이 없다고 판단되면 다시 요청하고 정상적이라면 사진을 S3에 저장 한다.&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="24" y="10" width="916" height="220" as="geometry" />
         </mxCell>
         <mxCell id="lZvOYTNsYxkt9xm4c5QZ-43" value="" style="line;strokeWidth=2;html=1;fontSize=15;fillColor=#6a00ff;fontColor=#ffffff;strokeColor=#3700CC;" parent="1" vertex="1">
