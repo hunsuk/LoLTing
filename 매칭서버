@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-28T00:59:22.885Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="rLqYqPDqk3W8h7_WzWVK" version="20.3.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-28T01:00:42.298Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="qYuHo1lC_rMwZAzEYCXo" version="20.3.7" type="github">
   <diagram id="8p86TaynFw6j-6ZWHJdc" name="페이지-1">
     <mxGraphModel dx="1118" dy="710" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -83,8 +83,8 @@
         <mxCell id="bw9CI1TZJWbKKUDoDsSI-38" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;fillColor=#21C0A5;strokeColor=#006658;fontColor=#5C5C5C;" vertex="1" parent="1">
           <mxGeometry x="603" y="564.52" width="70" height="66.33" as="geometry" />
         </mxCell>
-        <mxCell id="bw9CI1TZJWbKKUDoDsSI-42" value="&lt;br&gt;&lt;span style=&quot;font-size: 15px;&quot;&gt;1. 매칭 서버에서 각 유저 정보에 부합하는 유저를 추천한다.&amp;nbsp;&lt;br&gt;&lt;br&gt;2. 매칭이 되었다면&amp;nbsp; 채팅서버와 음성채팅 서버를 연결하기 API를&amp;nbsp; 프록시에게 전달&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="30" y="30" width="850" height="160" as="geometry" />
+        <mxCell id="bw9CI1TZJWbKKUDoDsSI-42" value="&lt;br&gt;&lt;span style=&quot;font-size: 15px;&quot;&gt;1. 매칭 서버에서 각 유저 정보에 부합하는 유저를 추천한다.&amp;nbsp;&lt;br&gt;&lt;br&gt;2. 매칭이 되었다면&amp;nbsp; 채팅서버와 음성채팅 서버를 연결하기 API를&amp;nbsp; 프록시에게 전달, EC2간의 전달( 두 방법중 하나를 택할 계획)&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="30" y="30" width="1000" height="160" as="geometry" />
         </mxCell>
         <mxCell id="bw9CI1TZJWbKKUDoDsSI-43" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.s3;fillColor=#21C0A5;strokeColor=#006658;fontColor=#5C5C5C;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="533" y="521.54" width="40" height="49.11" as="geometry" />
